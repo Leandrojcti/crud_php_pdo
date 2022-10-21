@@ -1,0 +1,94 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ /*div{
+    background-color:rgba(0,0,0,.1);
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+    
+}
+ */   
+
+
+label, input {
+    display: block;
+    line-height: 30px; /*altura da linha*/
+    height: 30px;
+    outline: none; /*tira o foco azul mouse move*/
+    font-size:13pt ; /*tamanho da fonte label*/
+    width: 50%; /*iguala e define o comprimento dos imputs porc em relação a tela*/
+    margin: auto;
+}
+
+form{
+    width: 50%; /*largura*/
+    background-color:rgba(0,0,0,.2);
+    padding: 20px;
+    margin:30px auto;
+    border-radius: 10px;
+
+}
+
+input[type="submit"]{
+    margin-top:10px;  /*espaço entre botão e linha do imput*/ 
+    cursor: pointer;
+}
+
+section#formu{
+    width: 100%;
+    height: 300px;
+    
+    margin: 30px auto;
+  
+}
+
+section#exibir{
+    width: 100%;
+    height: 500px;
+}
+
+table{
+    background-color:rgba(0,0,0,.2);
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 10px;
+
+}
+
+tr{
+    line-height: 30px;
+}
+
+tr#titulo{
+    font-weight: bold; /*para negrito*/
+    background-color: rgba(0,0,0,.6);
+    color: white;  /*cor da fonte branca*/
+    
+
+}
+
+td{
+    padding: 0px 5px;
+
+}
+
+a{
+    background-color: rgb(154, 154, 158);
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+   
+}
+
+h2{
+    text-align: center; /*centraliza o titulo */
+}
